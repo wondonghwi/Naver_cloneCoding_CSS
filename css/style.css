@@ -41,6 +41,15 @@ a {
     color: #cacaca;
 }
 
+.bar {
+    display: inline-block;
+    width: 1px;
+    height: 12px;
+    text-indent: -999em;
+    background: #e4e4e5;
+    vertical-align: bottom;
+}
+
 /*#header .lang::after {*/
 /*    content: '';*/
 /*    position: absolute;*/
@@ -110,9 +119,9 @@ a {
     width: 100%;
     height: 56px;
     line-height: 56px;
-    border: 1px solid rgba(0,0,0,.1);
+    border: 1px solid rgba(0, 0, 0, .1);
     color: #fff;
-    box-shadow : 0 2px 6px 0 rgba(61,80,81,.08);
+    box-shadow: 0 2px 6px 0 rgba(61, 80, 81, .08);
     background-color: #03c75a;
     font-size: 16px;
     cursor: pointer;
@@ -214,6 +223,44 @@ a {
     color: #000;
 }
 
+.tooltip {
+    position: absolute;
+    bottom: 54px;
+    left: -105px;
+    right: 0;
+}
+
+.banner__area {
+    position: absolute;
+    top: -23px;
+    padding: 7px 0 6px 8px;
+    text-align: left;
+    border-radius: 3px;
+    background-image: linear-gradient(96deg, #0C93ED, #6B87E7);
+}
+
+.edge {
+    position: absolute;
+    left: 162px;
+    bottom: -6px;
+    border-top: 6px solid #0C93ED;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+}
+
+.banner__area .text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+}
+
+.banner__area .x__btn {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
 .find_info {
     font-size: 14px;
     line-height: 14px;
@@ -242,4 +289,58 @@ a {
     background-image: url("../img/naver-certification.png");
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#footer {
+    position: relative;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+#footer ul {
+    margin: 0 auto 9px;
+
+}
+
+#footer ul li {
+    font-size: 11px;
+    position: relative;
+    display: inline;
+    padding: 0 5px 0 7px;
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+#footer ul li a:hover {
+    color: #438a01;
+    text-decoration: underline;
+}
+
+.footer__logo {
+    top: 2px;
+    background-image: url("../img/download-4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: inline-block;
+    width: 62px;
+    height: 12px;
+    cursor: pointer;
+}
+
+address .em {
+    padding-left: 4px;
+}
+
+address .corp {
+    color: #666;
+}
+
+address .corp:hover {
+    color: #438a01;
+    text-decoration: underline;
 }
