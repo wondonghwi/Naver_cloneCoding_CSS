@@ -228,3 +228,18 @@ a {
     display: inline-block;
     color: #8e8e8e;
 }
+
+.banner {
+    display: block;
+    margin: 47px auto 17px;
+    background-color: #fff;
+    border: 1px solid #e6e8ee;
+}
+
+.banner .banner__image {
+    max-width: 460px;
+    height: 147px;
+    background-image: url("../img/naver-certification.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
