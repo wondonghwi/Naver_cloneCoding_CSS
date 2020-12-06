@@ -45,7 +45,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607168520482</updated>
       <workItem from="1607168521961" duration="10219000" />
-      <workItem from="1607262335104" duration="9148000" />
+      <workItem from="1607262335104" duration="9884000" />
     </task>
     <task id="LOCAL-00001" summary="html + css -&gt; Naver -&gt; logo , input , loginBtn">
       <created>1607263947892</created>
@@ -61,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607272158838</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="more simply login ++">
+      <created>1607272811830</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607272811830</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

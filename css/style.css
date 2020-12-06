@@ -8,6 +8,10 @@ body {
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 #header {
     width: 768px;
     margin: 0 auto;
@@ -210,3 +214,17 @@ body {
     color: #000;
 }
 
+.find_info {
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 18px;
+    text-align: center;
+    color: #8e8e8e;
+}
+
+.find_info a {
+    font-size: 14px;
+    line-height: 14px;
+    display: inline-block;
+    color: #8e8e8e;
+}
