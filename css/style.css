@@ -200,6 +200,7 @@ body {
     padding: 19px 0 13px;
     border: 1px solid #03c75a;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .qr__login .item__btn .text {
@@ -207,6 +208,5 @@ body {
     font-size: 16px;
     font-weight: 600;
     color: #000;
-    /*z-index: 1;*/
 }
 
