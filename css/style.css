@@ -1,0 +1,101 @@
+body {
+    font-family: Helvetica, Dotum, sans-serif;
+    font-size: 12px;
+    background: #f5f6f7;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header {
+    width: 768px;
+    margin: 0 auto;
+    position: relative;
+    padding: 106px 0 53px;
+}
+
+#header .header__logo img {
+    display: block;
+    width: 231px;
+    height: 44px;
+    margin: 0 auto;
+}
+
+#header .lang {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+/*Vender Prefix (브라우저 업체별 접두사)*/
+.input--text::-webkit-input-placeholder {
+    color: #cacaca;
+}
+
+.input--text::-ms-input-placeholder {
+    color: #cacaca;
+}
+
+/*#header .lang::after {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    top: 8px;*/
+/*    right: 8px;*/
+/*    width: 16px;*/
+/*    height: 14px;*/
+/*    background-image: url(https://ssl.pstatic.net/static/nid/login/pc_qr_once.png);*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: -100px -69px;*/
+/*    background-color: #f8f8fa;*/
+/*    background-size: 170px 150px;*/
+/*    cursor: pointer;*/
+/*    z-index: -1;*/
+/*}*/
+
+#header .lang .sel {
+    position: relative;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 100%;
+    min-width: 95px;
+    height: 30px;
+    padding: 4px 10px 6px 8px;
+    color: #333;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+#header .lang .sel option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0 2px 1px;
+}
+
+#content {
+    width: 460px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+#content .input--text {
+    width: 100%;
+    height: 40px;
+    padding: 7px 35px 10px 11px;
+    border: 1px solid #dadada;
+    margin-bottom: 8px;
+    outline: none;
+}
+
+#content .input--text:focus {
+    border-color: #03c75a;
+}
+
+#content .login {
+    display: flex;
+    align-items: center;
+    border: 1px solid #65b836;
+}
