@@ -27,13 +27,40 @@
   </div>
 </div>
 <div id="container">
-<!--  content-->
+  <!--  content-->
   <div id="content">
     <form action="">
       <input type="text" class="input--text id" placeholder="아이디">
       <input type="text" class="input--text pw" placeholder="비밀번호">
       <button class="login">로그인</button>
+      <div class="check_info">
+        <div class="login__check">
+          <input id="login__check" type="checkbox" value="off" hidden>
+          <label class="ico_keep_check" for="login__check">
+            로그인 상태 유지
+          </label>
+        </div>
+        <!--        <div class="pc__check">-->
+        <!--        </div>-->
+      </div>
     </form>
+    <div class="qr__wrap">
+      <p class="title">더욱 간편한 로그인</p>
+      <div class="qr__login">
+        <div class="item">
+          <button class="item__btn">
+            <span class="text">QR코드 로그인</span>
+          </button>
+        </div>
+        <div class="item">
+          <button class="item__btn">
+            <span class="text">일회용 번호 로그인</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="disposable_login"></div>
+    </div>
   </div>
 </div>
 </body>
