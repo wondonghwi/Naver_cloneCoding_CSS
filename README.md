@@ -3,8 +3,8 @@
 ## <기술스택>
 ## Html , Css 
 
-### 기본에 충실하게 오직 Html , Css 만으로 구현
+## 기본에 충실하게 오직 Html , Css 만으로 Naver login창 구현
 
-### [웹페이지 바로가기](https://wondonghwi.github.io/naver_cloneCoding_CSS/.)
+### [웹페이지 바로가기](https://wondonghwi.github.io/naver_cloneCoding_CSS/)
 
 ![](img/naver_login.PNG)
