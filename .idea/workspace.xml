@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1f6c9a25-9f18-4b2c-a466-60ea910d7c00" name="Default Changelist" comment="html , css -&gt; footer , banner ++">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="1f6c9a25-9f18-4b2c-a466-60ea910d7c00" name="Default Changelist" comment="+ README.md , git ignore">
+      <change afterPath="$PROJECT_DIR$/img/naver_login.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,11 +28,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/WebstormProjects/front_end" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ccom1012\Documents\naver_siginUp_css\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ccom1012\Documents\naver_siginUp_css\img" />
       <recent name="C:\Users\ccom1012\Documents\naver_siginUp_css" />
@@ -47,7 +50,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607168520482</updated>
       <workItem from="1607168521961" duration="10219000" />
-      <workItem from="1607262335104" duration="14314000" />
+      <workItem from="1607262335104" duration="14555000" />
+      <workItem from="1607962262018" duration="61000" />
     </task>
     <task id="LOCAL-00001" summary="html + css -&gt; Naver -&gt; logo , input , loginBtn">
       <created>1607263947892</created>
@@ -91,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607277922837</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="+ README.md , git ignore">
+      <created>1607278173523</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607278173523</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +118,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="html + css -&gt; Naver -&gt; logo , input , loginBtn" />
@@ -114,6 +126,7 @@
     <MESSAGE value="html , css -&gt; find , join ++" />
     <MESSAGE value="html , css -&gt; naver-certification ++" />
     <MESSAGE value="html , css -&gt; footer , banner ++" />
-    <option name="LAST_COMMIT_MESSAGE" value="html , css -&gt; footer , banner ++" />
+    <MESSAGE value="+ README.md , git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ README.md , git ignore" />
   </component>
 </project>
